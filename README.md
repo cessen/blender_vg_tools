@@ -1,4 +1,4 @@
-Blender-Addon--Vertex-Group-Tools
+Blender Vertex Group Tools
 =================================
 
-An addon for Blender that provides some useful tools for managing and manipulating vertex groups and weights
+An addon for Blender that provides some useful tools for managing and manipulating vertex groups and weights.

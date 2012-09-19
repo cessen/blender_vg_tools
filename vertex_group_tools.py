@@ -194,9 +194,6 @@ class VertexGroupStatistics(bpy.types.Panel):
             	max_groups = max(max_groups, ng)
             	min_groups = min(min_groups, ng)
             	avg_groups += ng
-            	
-            	#for g in v.groups:
-            	    
                 
         avg_groups /= selected_vert_count
     
@@ -211,17 +208,6 @@ class VertexGroupStatistics(bpy.types.Panel):
         row.label("Min groups: " + str(min_groups))
         row = layout.row()
         row.label("Average groups: " + str(avg_groups))
-        
-
-        #col = row.column()
-        #row.prop(context.active_object.data, 'layers', index=2, toggle=True, text='Head')
-
-        #row = col.row()
-        #row.prop(context.active_object.data, 'layers', index=0, toggle=True, text='Torso')
-
-        
-        #row = col.row()
-        #row.separator()
 
 
 
