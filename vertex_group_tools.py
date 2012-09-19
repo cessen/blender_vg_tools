@@ -129,9 +129,9 @@ def remove_excess_vertex_groups_from_verts(obj, n):
         
     
 class RemoveExcessVGFromVerts(bpy.types.Operator):
-    """ Makes sure all vertices on a mesh have n or fewer vertex groups.
-        If the number of vertex groups on a vertex are greater than n, then
-        the lowest-weight groups are removed to bring it down to n.
+    """ Reduces the number of vertex groups on each vertex down to a
+        user-specified maximum.  Only the lowest-weight groups are removed
+        to bring them down to the maximum.
     """
     bl_idname = "mesh.remove_excess_vg_from_verts"
     bl_options = {'REGISTER', 'UNDO'}
