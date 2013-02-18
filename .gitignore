@@ -1,3 +1,6 @@
+*.blend
+*.blend?
+
 *.py[co]
 
 # Packages
